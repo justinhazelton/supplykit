@@ -3,7 +3,7 @@
     <h1>Wedding</h1>
 <div v-for="post in weddingData.blogPostCollection.items" :key="blogUnique">
     <h1>{{ post.title }}</h1>
-    <nuxt-link :to="`/${post.author.name}`">Click here for {{ post.author.name }}</nuxt-link>
+    <nuxt-link :to="`${post.author.name}`">Click here for {{ post.author.name }}</nuxt-link>
     <img :src="post.heroImage.url" :alt="post.title">
     <p>{{ post.author }}</p>
 </div>
