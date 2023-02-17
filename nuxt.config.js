@@ -1,4 +1,9 @@
 export default {
+  target: 'static',
+  router: {
+    base: '/supplykit/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'supplykit',
@@ -96,4 +101,5 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
+  
 }
