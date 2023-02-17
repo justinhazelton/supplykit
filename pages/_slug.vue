@@ -3,7 +3,7 @@
         <h1>Wedding</h1>
     <div v-for="post in weddingData.blogPostCollection.items" :key="blogUnique">
         <h1>{{ post.title }}</h1>
-        <nuxt-link :to="`/${post.author.name}`">Go Home {{ post.author.name }}</nuxt-link>
+        <nuxt-link to="/wedding">Go Back</nuxt-link>
 
         <p>{{ $route.params.slug }}</p>
         <img :src="post.heroImage.url" :alt="post.title">
