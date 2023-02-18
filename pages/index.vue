@@ -1,5 +1,5 @@
 <template>
-  <h1>Supply Kit</h1>
+  <h1>Supply Kit on the gh-pages branch</h1>
 </template>
 
 <script>
